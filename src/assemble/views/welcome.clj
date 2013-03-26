@@ -8,10 +8,12 @@
   (common/layout 
     [:div {:id "title"} 
       [:div {:class "title-placement"}
-        [:div {:class "title-text"} "assemble"]
+        [:h1 {:class "title-text"} "assemble"]
       ]
     ]
-    [:div {:id "subtitle"} "your workplace, evolved"]
+    [:div {:id "subtitle"} 
+      [:div {:class "subtitle-text"}
+        "your workplace, evolved"]]
     [:div {:id "mission-statement"}
       [:div {:class "mission"}
         [:p "We believe that thoughtfully designed & serviced workplaces enhance productivity, inspire worker satisfaction and
