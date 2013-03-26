@@ -1,15 +1,50 @@
 body {
-    background:#BFBFBF;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background: white;
+    height: 100%;
 }
 
-.title {
+#title {
+    background: #BFBFBF;
+    height: 300px;
     color: white;
     font-family: Times, serif;
-    font-size: 50px;
+    font-size: 100px;
+    position: relative;
 }
 
-.subtitle {
+.title-placement {
+    width: 960px;
+    margin: auto;
+    height: inherit;
+    position: relative;
+}
+
+.title-text {
+    position: absolute;
+    bottom: -20px;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    right: 60%;
+    line-height: 100px;
+}
+
+#subtitle {
+    text-align: right;
+    width:290px;
+    margin: auto;
     color: #7E0308;
     font-weight: bold;
+}
+
+#mission-statement {
+    background-color: white;
+    border-top: 1px #BE0712 solid;
+}
+
+.mission {
+    width: 960px;
+    margin:auto;
 }
