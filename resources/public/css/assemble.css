@@ -5,6 +5,15 @@ body {
     height: 100%;
 }
 
+a:link, a:hover, a:visited, a:active{
+    color: #7E0308;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #title {
     background: #BFBFBF;
     height: 300px;
@@ -46,9 +55,14 @@ h1.title-text {
 }
 
 .mission {
-    border-top: 2px #BE0712 solid;
-    text-align: left;
+/*     border-top: 2px #BE0712 solid;
+ */    text-align: left;
     padding-top: 8px;
+    width: 960px;
+    margin:auto;
+}
+
+#footer {
     width: 960px;
     margin:auto;
 }
