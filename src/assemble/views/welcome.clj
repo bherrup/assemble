@@ -16,16 +16,22 @@
         "where work comes together"]]
     [:div {:id "mission-statement"}
       [:div {:class "mission"}
-        [:p "We believe that thoughtfully designed & serviced workplaces enhance productivity, inspire worker satisfaction and
-             ultimately contribute to exceptional business performance. It is with this focus that we provide professional work
-             environments for a curated community of likeminded members and do so with pricing that allows us to thrive together."]
-        [:p "We invite our members to let us know if we deviate from our path, knowing that shared success is a team effort."]
-      ]
-    ]
-    [:div {:id "footer"}
-      [:p "Coming Soon to Arlington, VA "
-        [:br]
-        [:a {:href "mailto:info@assemble.com"} "Contact Us"]
+        [:p "In a world where you can work where and whenever you want, you don't need an office."]
+        [:p "Unless of course, it's simply your favorite place to be:"]
+        [:blockquote {:class "mission_points"}
+          "Productive"
+          [:br]
+          "Inspired"
+          [:br]
+          "Comfortable"
+          [:br]
+          "Welcome" 
+        ]
+        [:p "That place is "
+         [:span {:class "assemble_title"} "assemble"]
+         "."]
+        [:p "Coming soon to Arlington, VA."]
+        [:p [:a {:href "mailto:membership@assemble.com"} "membership@assemble.com"]]
       ]
     ]
     ))
